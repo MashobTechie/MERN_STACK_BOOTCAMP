@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* CSS Selectors */
+/* 
+1. Element Selector: Selects all elements of a given type.
+2. Class Selector: Selects all elements with a specific class.
+3. ID Selector: Selects a single element with a specific ID.
+
+*/
+/*  1. Element Selector */
+
+h1 {
+  color: red;
+}
+
+h2 {
+  color: blue;
+}
+
+/*  2. Class Selector */
+/*  starts with . */
+.selector-section {
+  color: green;
+}
+
+/*  3. ID Selector */
+/*  starts with # */
+#selector-p {
+  font-size: 50px;
+  color: purple;
+}
+
+h2 {
+  color: orange;
+}
+
+/*  Common Properties  */
+div {
+  border: 4px solid black;
+  padding: 10px;
+  margin: 10px;
+  font-size: 20px;
+  background-color: lightgray;
+}
