@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* differences between em and rem */
+
+/* em(relative to parent font size  - use it for elements that have a parent */
+/* rem (relative to html doc)  - use it for elements that don't have a parent */
+
+/* Why responsive design is standard: 
+1. overwhelming variety of devices(smartphones, tablets, laptops, desktops, smart TVs )
+2. User expectations for seamless experience across devices
+3. Google's mobile first indexing and SEO ranking
+4. Cost-effectiveness (single responsive design vs multiple versions) 
+*/
+
+/* Mobile-First Design Principles */
+/* 1. Workflow: Start with mobile designs and progressively enhance for larger screens
+2. Use of hamburger menus for navigation
+3. Flexible grid layouts that adapt to screen size
+4. Media queries to apply different styles based on device characteristics
+*/
+
+/* CSS Measurement Units And Best Practices */
+/* 
+%: Good for widths of block that are relative to parent 
+vw/vh: Great for elements that should be scale with the entire viewport (sidebars, full-width sections, hero sections)
+
+
+*/
+
+/* Common Breakpoints */
+/* Smart TV(4K screens) :2560px */
+@media (max-width: 2560px) {
+  /* Styles for Smart TVs */
+}
+
+/* Large Desktops: 1440px */
+@media (max-width: 1440px) {
+  /* Styles for large desktops */
+}
+
+/* Medium Desktops: 1024px */
+@media (max-width: 1024px) {
+  /* Styles for medium desktops */
+}
+
+/* Tablets */
+@media (max-width: 768px) {
+  /* Styles for tablets */
+}
+
+/* Large Phones */
+@media (max-width: 425px) {
+  /* Styles for large phones */
+}
+
+/* Medium Phones */
+@media (max-width: 375px) {
+  /* Styles for medium phones */
+}
+
+/* Small Phones */
+@media (max-width: 320px) {
+  /* Styles for very small devices */
+}
+
+/* Mastering Media Queries */
+
+
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+    background-color: #141411;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+
+}
+
+header p{
+    font-size: 1.2rem;
+    color: white;
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     padding: 0 20px;    
+    gap: 20px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    color: white;
+
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+header nav div button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+i{
+    display: none;
+}
+
+
+@media (max-width:650px){
+    header nav ul, div button {
+        display: none;
+        /* flex-wrap: wrap; */
+    }
+    i{
+        display: block;
+        font-size: 2rem;
+        color: white;
+        cursor: pointer;
+    }
+}
+
+/*  flex-wrap  */

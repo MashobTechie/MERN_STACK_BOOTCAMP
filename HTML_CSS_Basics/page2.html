@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./page2.css">
+    <title>Document</title>
+
+
+    <!-- <style>
+      /* Add your CSS styles here */
+      header{
+        background-color: #141414;
+        color: white;
+        padding: 10px 20px;
+      }
+
+      nav div{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+
+      </style> -->
+  </head>
+  <body>
+
+    <!--  CSS stands for Cascading Style Sheet -->
+      <!-- 1. Added directly in the HTML file (inline styles)
+      2. Internal CSS (in the head section)
+      3. External CSS (in a separate file) 
+      --> 
+      
+      <!-- Header Part -->
+
+    <header>
+      <nav>
+        <div>
+          <p style="
+            font-size: 20px;
+            color: red;
+            ">NETFLIX</p>  
+          <button style="
+            background-color: red;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+          "><a href="#"
+          style="
+            text-decoration: none;
+            color: white;"
+          >Login</a></button>
+
+          
+        </div>
+      </nav>
+    </header>
+
+    <!--  Main Part -->
+
+<main>
+  <!--  Hero Section -->
+    <section>
+      <h1>Unlimited movies, TV shows, and more</h1>
+      <h3>Starts at ₦2,500. Cancel anytime.</h3>
+      <p>
+        Ready to watch? Enter your email to create or restart your membership.
+      </p>
+      <div>
+        <input type="email" name="" id="" placeholder="Email address" />
+        <button><a href="">Get Started</a></button>
+      </div>
+    </section>
+
+    <!--  Features Section -->
+    <section>
+      <h2>Features</h2>
+      <ul>
+        <li>Watch on your TV, game console, or mobile device.</li>
+        <li>Download shows for offline viewing.</li>
+        <li>Enjoy ad-free streaming.</li>
+      </ul>
+    </section>
+    <!--  Testimonials Section -->
+    <section>
+      <h2>What Our Users Say</h2>
+      <blockquote>
+        "Netflix has changed the way I watch TV. The variety is amazing!" - User A
+      </blockquote>
+      <blockquote>
+        "I love being able to download my favorite shows and watch them offline." - User B
+      </blockquote>
+
+      <!-- article tag -->
+      <article>
+        <h3>Join the Netflix Community</h3>
+        <p>
+          With millions of satisfied users worldwide, Netflix is the leading streaming service. Join us today and experience the best in entertainment.
+        </p>
+      </article>
+
+
+      <!-- Form -->
+      <section>
+        <h2>Sign Up for Netflix</h2>
+
+        <form action="#" method="post">
+          <input type="email" placeholder=" insert your email Email address" required />
+          <input type="password" placeholder="Password" required />
+          <label for="terms">
+            <input type="checkbox" id="terms" required />
+            I agree to the <a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a>.
+          </label>
+          <label for="age">
+            <input type="checkbox" id="age" required />
+            I am at least 18 years old.
+          </label>
+          <label for="country">
+            <input type="checkbox" id="country" required />
+            I confirm that I am in a country where Netflix is available.
+          </label>
+          <button type="submit">Get Started</button>
+        </form>
+
+      </section>
+
+
+      <!-- Video -->
+       <!-- HardCoded -->
+      <section>
+        <h2>Watch Now</h2>
+        <video controls>
+          <source src="./index.html" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+
+
+        <!-- URL based -->
+         <!-- Embed The video -->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/uxOuOqByfNw?si=5ozms9bV_1mao40H" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+ </main>
+    
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2023 Netflix, Inc.</p>
+    </footer>
+  </body>
+</html>

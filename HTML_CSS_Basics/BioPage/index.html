@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Bio Page</title>
+  </head>
+  <body>
+    <!-- Craeting a bio page that contains header(nav links with about, contact), section (about me, img of the person, short bio) , form to contact that collects name , phonenumber and email address, and also a button to submit the form, footer  -->
+
+    <header>
+      <nav>
+        <p>Jane Doe</p>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- About Me Section -->
+      <section>
+        <h1>About Me</h1>
+        <div>
+          <img
+            src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIALcAwwMBIgACEQEDEQH/xAAcAAABBQEBAQAAAAAAAAAAAAAGAAMEBQcCAQj/xABSEAACAQMBBAUHCAQLBQcFAAABAgMABBEFBhIhMQcTQVFhIjJxgZGhsRQjQlJicsHRFYKS4RYzNENTVZOissLwNmNzg6MXJFSzw9LxJSY1ZGX/xAAZAQADAQEBAAAAAAAAAAAAAAAAAQIDBAX/xAAgEQACAgMBAAMBAQAAAAAAAAAAAQIREiExAxNBUWEy/9oADAMBAAIRAxEAPwAwNeGsw/7U7z+qoP7Vvyrw9Kd1/VUP9sfyrqzicvxyNONctyrNF6UZ94b2lR+qU+7hR9pGoR6rplrfQoUWdAwUnO73impJ8E4tdJLU0acbjzqs13VINI0ya9uFYrHjCqPOJ4D3mmImmuDQC/Scv9VN/aj8q4PSYv8AVTf2o/Kpc0UoSD5qbegQ9JS/1Y39qPyrlukdf6sb+1/dSziPCQbsfJNUt/NuOfTVDHt8ZiFj0xsnP87+6vTqeoXyl4tOKj7UgHvOKT9IjXnIu7KbfkT7341tGgfyCP0V87jVNQtPLbSy4UhjuSBhj0jNFWmdN1vY26wSaFKxHPdnH5VEpKS0y4xaCbpJ/l8HooLc1X7U9KEeuXSzRaU8KoMYebJ+FUR2w7rP+/8AuqlJUKUXYTnnRVs1/JDWWfwu/wD0/wC/+6rXTekb5FD1X6N3+Oc9b+6hyQlFo1uOnxWVjpW3Tn9Ff9b91djpb/8A5H/W/dU2aKzVBXYoY2M2ri2mtZ5Ut2t3gYB03s5z3H1GiUHjSsZ3XteA17TA9pV5SoA+f00H5QxNrb3Uyr5zdWQAezlXE+gyQNum1kVe9yR6+VPHUbq0lQS/LIGL+UrRlMjhjhwpyWLVYl66CLVHj853lgbdB7Mc6x3+m0kV97od1a2pnkspgmAzSAEqoPecVpnR05k2SsyeaM6exjWV3l3d3Szn59Y/5yPfYqPSK0fosm39m3j/AKO4ce3BrfzTTOb14FzcqFekj/Za4++n+Kik0MdIo/8Ata5+8n+IVrPjMY9MqtrYTJvssuRnzd3l6zXXUW2BwnX7yiutLu+rXq+otTzPWSQl29xqyi1J3ID29qy43RvIcHxxmuRz2dsY2VkVrasD5U3uFI2cJ4Iz8PrEH4VcT3apIhWO1VM+UBA2G7+2uLudYIJCljaKc7oaMDPPuBzSzQVsYtYI7SAybu/Ifd3VzDqV9bsXYuQOwD8a0PZPY+GCzS41QGeaQZKOcquaJI9C07d3PksXHh5orFztm8fOzNtI1BNW+ajPU3w4hc4WXw8DUq50C31veWQC3vOKxzkY8r6kgHP0/gCKvdpNihagX2mIFkjbeKrVjaxx6npkGrRj55cR3sQ5grgb+O8ZBz2gjuNOLQ3H9Mhl0ma2uZLa9ikinibdkRl3sH2cuPOmUsGPDckCjkd2tr202fl1TZpdRsAP0hZjdlA4NJEOzPPhnIrMrRtYj+YZJcOQD1nlHwweytMn1mWK4UjaeqjzvatciwY8QshHgtWN096jN1qTFs5zuE47DxpqG9uJt+FJrndACqqgsQPVTX6JxSILWbKwUq2TypSWTxg70UnLO8FyKlSPeQEmZbgxdjSoVLD0mo7XV6Q5E0/VtzXrCRVK3shh/wBC78NU9Mf40YbTbTRaHGrbjO7cMYrNujjXLTRBffKzuiXdC+kZ/OjC62r0C9GLgq+eR7qu0QT9E23s747tzmB+zeq9uNatYLcTK++pIGfTQdpmj6FrVw1zBxROzxontbG0jtzAqfNkYxQBcQ3VvJErryYZpUNvYX8LmO3b5oHyfRSpgZoP07pWolGilgY+SslxAJPJ582FQ9SvDcQb8l4GkOCerc5PYeA4UamS7kODLfyCSIL1jaUpAOcDmeFD+oWuiJdNHc3V8LgNvM7W6R7wGeAGT6OVYqmjbmgXuGt2hXqFdHycsPp+80edE0mdN1CH6twre1cfhQtd2tpcjfsGvJpTwYSxgZPIY3aJejaCayn1CO4j3d8RsPfW8EY+3+WH+c8aGukL/ZS9/V+IohDUPbf/AOyd991f8QrWXDmj1GV6RNEj+WWR8HDlhu4xyxirDMMm80DMrA+a3upjZ+xlvIWKLaOgbBWWRFfl2E8atRYSOzLJLaKUIUhbiPPxrhwylZ3wnirGbd9RERi+Qq+9jDvGDx9JFPS291+k9Mh1KKBeuuEb5pAMjPLI51Gnkvbe5MW9M8BAVQrHgPDHrp9LG5uNTsY5JC5LruK8u8QMnnnly5VLVGkkslRrdvfWkuEhu4nI4YSQE1Ilv7ayQyXM+4B3jOazy20u86xpLyYQNCN8sEByc8gRy8njk93LjVhHp2sSxwJqd0DJPb78O55PHtU8ckjh2jtrJxOhMPNI1jT9SLRhbgIRgM8LBTnxNDkrybM7WTQgj5Ne+XGg7ZByH6wLL66i2OgSPJiLr4id3ebrCWBBySG4EAjhj11ZbSaLIuw8UvyyS4khfrlmnCtIy75YDfI3sYI7aqkiZb0HOiRQy2JSMiSCWMbjDtjYcPyrC9a0u60/V3s7nUUXdmKpm4K5xyzy7OzxrU+ivVv0hpcsEr5kgckA8CAePxz7aH9v4549p3/7pLJAAsoZYFcEnh2+irvRzSX0Zvf2V+VMlm8twiHyjG5YLxx31DgvbtLZUkeGJAxH8WqsSftYzRNMbkiUIL5GEZBQWqYPp4+NQ79A8Be9a9RVwpjFtGDnGe+ri7WhcQNXc+9KN+aR1xxVXJHxqLM0f8xvKMcVNWrrpKDrIZrxc+TuhF4DtzVbdRW6uxtmkZPtL5Q9NWmS2eaeN6N/SKeaNcU1pp8iT0j4GpDHyTUtmTDDo9l6lZh3mj6G441muxsm6knpo0s5uVarhSCRJcqDmlUGNgyAmlQALW0e0d3GolfciJ5dQmRjv4Vc6dpdw80b3FzHvom6d6NQceoUU9ZcKwVVBfuW3WnP/qKgnG76Y8fhW0POMVQ3N9Kv5PNBGwiVg31wFwR31Qxo6am55NJkE9+DRgpv91pBLgIMkUNXIPy3ebzjJk1qtRaRL2iyttKkfCrLxNU3SNpTWmxuou8qkqq+T38RRFpbMLhWDcqyHba8vLjXdajkuJGgSNt2Pe8kcO6uVzdEKCQM6NdxQbp/R5uJt44ZZCMLgcMYPj7alyus8pnisjbsDvMWk3viBjsqNohtynztvDKwfey1w0TYxy4D31b29zbRR8NDaPLEB+uds+o8K53idPm64Mwahaxgi5hMyn6XWlcDwxVjpVxbPqmn3FtA9tCs24wEhJye3Ps9lRYZbQyOj6OpLqVZnkcDPPPA1OgNtPphmsoI4RDKT825biBnPlGpdVo1TTdh3NBC7iMyzzgeUY2kwCO4+n86t5JYtSthbC3DOo3g7MQUbwAHdntqhtyurWKSRM0c27iTBwSePMdx513p+js1yrTtIyDkA7caxVrp2RUWrLixtIYr5ILiN3YNkdY7ODjwJNXm2ckSbJ300nkokROBjj4UzY6RFbyCeCMI78XJ59wqn6Trtv4K3FrCd4OR1jDkADn8qF0zn+gl0Sa5GNpnjgBSK44gP4nBz6932GijpjXUraSwvNOlZIph1MqgDj2js8T7KyfYG4FprVs7nAV91h4HOfjW77ZdffbHia3dkljePeKnBIzunnw7c1tDtHLO2sjDBqWrKxU3EmQuS26OPupiTV9SV2brJVZ+BLAH8KtbptSDl3e5JUguFlBw3fwGOHKm8a1OBM9zIqtlhvXCZ5cc8aUVugfLbSIKXGo9QFFy0mOUYXH4VEupdVTeCyTpGQVIOOXaOXdU+4m1cBhLfMQeZ3wce+o1zc6rboIvlskkbqXwkmefPiDVKk9kSdopLM7qOakNLvcKZs3+ZmU8esAGfbU2xdLcbkke+D21rRk0XuzA3YCfGi6xPEUHWGoxQABU8nNXsG0Nlb8Zd7FUmCCb5SqeSeylQ++v6XM3WGRhvUqYGhm5nZEihYzIo4lQO3xru1t7m5lijlbcdzu4bnWH/LNAVQp1XUpSCRlIWGeHD6dEHRtqek/wx0qK3a/NxJMVUyAbpG6eflE9/tql7yraJ/htH6GtomHW6gok7S+7n41ButntLmmaR9YRcnkHTh76x3pdiX/tA1PyV8oRNy/3aihgwxhQN1eA+qKMpfoz6QgsdGtm3zrMPDI8qZBQxqWwuyN9d3dxcbR7j3S+WFuYQB6MisWCJ9X3ik6Lj/4NJx/ozX7DYPYzTImSLa4hWO82/c2rHPDvTwqemgbFxEqdq0JLbzf97t+fLsWsO3aW7U4WBvVnsxsrqsxj0rX5J7hYj/J7iJyF4DJAXly7qB1tNSSbUbWc5kt5XEE26OIBKjw7BTnQWcbW3S99i3+JKro5wNsdqbdd7d6y4JU8s9bxPvqJRSRUHsZ0S/12C4PyxJJ4d7BI3RuHv4H0Gi3StYkuJn3IgN3iDved354cMcPbWR6frVzYB1hmkQscEg+6rzYnVNSn2gt4LZJ7pXJMqcwidreAGRz8O8VnOFq2dHnOnRrb6ndXCBN4IpP0BjNeapp/y/RZ4G+mmB6aaidRzqYrs6bi+bXKdOjCJIJ9G1dldd1Mlc/jW6bB6hBtDs5NYXLhutjMUoPoxn1jHrqo17Ze11SEGTKSOwRH3ebHkPE8ahbObPansfq8RlljMLkqVjfOR3Ecx3gjtrWL1ZjOK4AuoWF9p811YpMttNHKUmVrlUBwePDhw5VW/ILzyt+eAArkhJ1Yk47gfCtC6YLGKyubbXPkRnhvgElfrCNyQDhwx2gf3TWZjVbNWLrpqhSc7vWnh7q3jGjlc5LRJl0+SOREE0BDgYDXCj1EV69u3USRyXFtGOOFSRcriqv9Ig3ZleBSp+hn/Nzri8uraZQsdmsRyTvCUtn21bQZaoO+ha80uz1DVW1eJX34owpK5AOWz+Fa4mt7JN/NQj/lfurAthDm6uz9hfjRhutk0WTRqY1jZMKSy2+B/uv3V7Hq+yc/FI7Zv+UPyrK5VbqT5VP6cu7ADRYUaj+ktl/6KD+y/dSrPN89j15RYUCsfQ7tOx+cl06Mf8cn4LRNsT0T6tou0en6tdahZulrMGMcYYluBHMjxrUnby6k27cR6R8avGibMI6Yxu7f3p74Ym/uj8qFk3QoDb3Lxok6cd5OkC4IbzrSE/EUFovWJkcCeOcmhMZYOYseSrZpmoTQMozvU2HZD51VYkWFKm7eTfSnKANA6ETjbR/GxkH95KJ7jo2kg2l1TW11RWW8kkzD1Hmh2B55444UKdCrY23Re+0lHvU/hW2z3FuHmSS4iBBwQXHDiPGs5dGjJh0Ep9PaE/q2w/OrrQdiYtibW5W2unvJ7tgrzGPdKIOzAz2n3+ArQlvLeTIilikbHmowJxXA3RGZJD5CgsT3D8sDNS1aLi6dgjZ6dLdE9RHyO6zdi+BPrFXOh6epXrnKTQtgw8DxXmW9fDHgM9vDuOzWW2NpumMXT9fOn1IyfNI7C2MH0uefGrCdUume2kAMCAGZeStnkh8COY7iByOKiPnFGkvVsbilW9wycLRRlWTh1nip7F58eGfR501YoJ7VAsaC3K5VCo3SDy4VHspxdWokeMrlnG4fssR+FTbLHyaNRyCKPcKr7M3yyi1/ZzT9e0ObTLneFnOFYGFhlCCCGU8f9ZoNXoP2e7dR1P8AbT/21pVum/p8YPPq8CoL7RaRCQlzqEEUg4Mrtg5HOqQmAw6D9mu281Mn/ip/7a7HQhsv/wCI1M/85fyo2G0ekEEi+jIHMjOPhU2G+tbi2FzDMjw4zvjNMRl2tdHuj7IWXyvS3u2kmkEb9dIGG7gnuHdVPDA80m5HGzE0T9Iu12kzQW+n2szSyCTrHKL5gGQBk9pz7qrdm9X095I4V8kZ9poqwIl3o1/HbmRbSRlx5RTjujxxxpm2TECjurV+utNP6tVDSTsu+EFAu0wD6sZBGkZkXeZU7D+dKqAqwvClTqgEZHKlQMszLrcrcYZZFyMkoaWp3ctjrmlC4uWiZ3hCw7vnsZMfjRGP03IAUg599CW0mz2r6jtFpWoXkkcUdlMjbu6RkBs1Wdk4UBvTwMbfA99jEfYWoCPFR6PGvpTajZXZDaK8Gra0DLIsSx9Ytw6DdBJHm47zVMmyHRnEP4lG7PKupT/mpIRgW5n/AODS6v8A1u19AroPRkh//HWbfeLt8TTq2PRrFwXSdNOPrW+fjTsDALcLGCWan+ug/pF9351v6Ho8tj83o+mqR9WyT8qdXW9ibf8AitOtF+7ZoPwp5DozPoZkT+HtsEdW3reXt8P3Vsl7svpt5fS3UzOJpDvEBhzx6KhWG1ezRnC2kKRyDzTHCoPuqfZ6tY6ncTdRMGWLypBnG7jv8OfsNQ7+hoVppdlpQb5FHumbgznicDmfQPiakXrkwosgPlMCyjmwznd9JOF9GacZl3Gml8kbofyuG6g448M9vr7BXkCNPILmQHOPIUjBUd58ePqBPeaBnskgtrdpJVBkc8h9NjgBR7h7K4hHU7kLNvSHMszDtY/EcwPQKhwT/pDVpJV42llvRKf6Sbk5HgoyvpLd1dWbCbU5pixw4EUa9hCZJPtYj9WgqK02TdNXct3UnOZ5mPhmRuHqqVaMFtkJ5Kgz7Kr9LzHLfwjAWO6Yrns31WQ/3nNSzF11pLCXChldAV+jnIzSFxEZ3K6RY9U2Fk6ssfs43iPXjHrqv0SKz1S1voLm1hm6ucwy9YoO9wBH+LFdaxddTb2iqMAPxB7gvb7aouia+GoDXCGyDdrLju3gR/loCPCzl2Hs1JewuJ7RuHmPkGrCSB9H0C+a/ukkihiZ+tZd0hQuTmr4LwrNOnLXPkGz8Okwt89qD+X/AMNcE+07o9tMkxO6v5by6luX8gyvvbvd3CrzYyGXUdobO1Uni++2OxRxP+vGhojdHfWk9CenNPqt5qBXKwxhQ3iTy93upoDVpFEatkYc8WYduOyga/uPlV/LMh+bLYU+A4CtEjgWWbdcAqAd7PIios2zekyDKwdXn+jYinJggBRcKB4UqNTsnZE5FxOB3cKVSMh2tjrei3EY0rVjf2n0rfUI/KUfZdeXsq7mnur21aCe1hQOuDuyF8ejyRTPEcHud32UgYF4m64+kflU2OgRvNktSs5mk0m+dc8THMA6N+NVcmiXTyj9K7PzE9s1g+VPpXINaC0tt9Kdv2jXPX2f12b20sqHjYEps3ZHzNIv2+9Ew+LCuzs5D9HQrn72Ih/iko0+U2v1Wbw/0a9F3b/RianmGADjZqbJ3LF0X7XUfg5qVHsyygHqVXh2ug+ANF4vIv6D4V2t8n0YVWjJixQOWGnX1mSILeydO+WY/hFVmBdRaXdfLI7dHmlihUQknId1U8wPrYq0W8b6q0zqL9fHaxvzku4iP1D1n+Smm2KqHL/cmgmifyhPKkZ+4SoYewt7alX0zxw7sR3JpWEaMewnt9QyfViq0S/KGx9W6ZfWkpX4LXepS5lsF77n/wBOT8qAQ+5htLFYYEwsa7ka955AenJryFI4pLdTkvkhWJ+lusSfX5VcyhesC9sY3z6TkAfE+ymGuYTqVjb+dIJGcDuG4wyfA5PsNBb5RMs/I1HUo/rPHL7Y1X/JT2noI5rsDkZ8+0An31FtnYa9exNwU2tvIpPI+VKCPUQPaKm2v8out7kJAeP3F/KmCemZ90g6qLa1e3h8545E9CsDk/sq3u76pOhGcjUr+F2wJkJB7Mq5HwJ9hqNt/IYb26tpGzIbqTB+rFlTu/3R7a56KgYLhbv/AHyqR6CQR/1lPqFTISRtYVSe3P2q+cOkvWU1nbG8eNt6C2PyaIj6qecfW297q3PbLW/0Dsvf6khHWRxERccZduCj2ke+vmDJ+kSzdpPM04ikdud5t3vGTX0psFoP8H9lbO0ZcXMq9dcHt327PVwHqrC+jvSf01tjp9sy70aP10o+wnlH2ndHrr6XPM8MVZIoFwC27z407mm96ugahlHW9SrzNeUAA/W8a7WT7NM+Sv0l9Zp2NRJxUFsfVBNRosdD17vNXqxSf0En7BpwQTN5sDezHxNNUFnCvXatTqWFy380P1nFOrp9yOyMeG8fyoFYyDwrpKeNhN9OSMe00lsGz/Hj1L++jYWjuKnJF6y805DyjMk3qCFT/wCZXqWe6g+dZuP1RUO+u+quUnbzA/yOPx8ku59BKovpU1STJbQ3p0u9fXySLjq7guPtBxvAjw3iw9Kmpc/zmqWSDkvWSH1Lu/8Aqe6q61kxfLIDwlVlY/d4r/iarOzbf1GY8tyGP1ZLH8B7KYl0dkZA7DczlznxIOB+FVVpb7+0bX8vnSXS20G630Ut5WwR2eU8h9S08s3WNKx5mVwP2jULUIo7mC6ScFt26DDDYwcL+Zz4HxpN0rLpt0XN1dwWWuxSSygRvaOCee6VdSBgd+8x9RqIdrdOtpJWnhuUQvkPuA8OA5Zz2VWhQoCgADuA5VWa1EBblj5o4mub5m3o6V4pLYH7ZpNPtA1/KhWK93p4OIwyZwp8MqFOD31L6N7lTpJO75Zn60Z7gImPuT3VS6pqT3W6TIXht4dyEbuMA+UwPrJHqFEXRvbxQbIyX9wd1LR5Xd3POPcAbHiNz4eNb3ZzPToXTbrO9bado8G8DI7XEq94GVUe0sfVWTHwqdrWrT65qlxqV4W35T5Cn6CDzU9AGPSc1ADDfUE5GOPbVIzs2noL0fqNNvdYkX5y5bqIT9hfOPrY4/Vo4uNcRtTks7IKwt8CeUcRHIfojvIHP0ismn22msNBstC2fPUxQQhJrzk8jc3K/VBOePP0c61DYbZ9LPZazWZT10y9fJvc8vxwfVgeqqfBIj3GqawrMu9EuCR5KCoNxqOtSjBu3UfZAH4UYtpiy8zlx2+FcnRo6ii7M8lvtZWQqL2bA+3So8k0NC5IpUUFnsUO4B5A9VWMA+YNMIKlxD5o1RBEkTyRTSJxqY68K4UUAeIlcyDy6fWkRxoGMbm9XnU1K3artT1OOzVkQK82PN7B4mk2kNRctHt9dRWdvuk5kOcKvP00B6td3FxZNDG+J4ZuuiGd0Od/fHHicHiCfE1I1DU8sxZsueZPKhe+12C2uI2mbejDeVjmF7cf67qyj62zofjUQ00e4W5FnNHvCKWCSZQwwRxQDI7MZYVMhu929vsDChYkI8cEn3Mvtpi3SBL4C2IEKWilMdokkdifWVNMacBIb2djgTXbkDwTEY/8utm0umKTbJdlJmIn/ev/AI2qOJt+S8Uf+LOPUifiKehVohjGOJOPSc1wtuo3urTBdizHxNYT9VVI6I+buztRxqo2rkFvpM0jdqnFXca5OaFOke43LGG3XzpHGfQK54K2bzdJmdxA/oqUjzijL6+RqfqWpy6f0d6fpaPk6vPJOx3vMjSRlZeByASsZ/aqGp3YJoz2Nj1Hj8c0NfKJbkI0zb3VxiFPsoMnA9ZJ9ddx5zPD4V1AuZM93wrgn6NSrdcYHdTQi/2U0w6zr9hp+MrPMof7g4v/AHQTX0+AAAAMAchWJ9CWnrJq99qk2BFZwbqs/wBFnPPPgqn9qth+XCSLrYFUw4z1zthT6O0/CmwJZHlCvarpBK15bo19ujDEpEoAbh3nJoa1vWp9L14wJbXWpIlt1xiSUqVOew8icdmaQBm0m6SN1z6KVZpP0k7P9a3XaLqSyfSElrhgfGlTEHy1Ki/izTIFPxjyKkYyTwpAU444U08sUQzLIi/eIFADoWuXKR7zucKoyT3VCn1uyhGAxkYctwcPbQrtNtIqQM8zLFF9GPmSe/xqJTijWPk5dLXWNolQFbdwqY4ueZ9FB1xqNxfyGOxikmYniVXPHxPKqnTWudqbxt0tHYRtiWXt+6vj8Ofp0DT4YbWNIoY0SFBwUcKwcm+nVGKXAQk2a1e9GJZYrYH6zbx9g/OpGjbF2enXgvNQl/SE6n5tJI92ND37uTnwzw8KKZ7u1QY6wcO+qm/1/TLVSbi9gQfacUrf0N19k14kN1JcMMzygBpCMEgFiB6ize00t7hw5UIX/SBo0AIiuuuxwxGu97xVJc9JMPH5PazN+rj4mjGTFnCJoxfd40hOv1qyW46Qbt87lo6/eNVlxtrqjt5AVaF5SYvngjbJLxUH8ZWfbX3bXmtxLneiijbd+9wz7jQqu10zJ/3iKUydrJIcH1VGudpkdUxbyRsj7wPDuOfca2h507MvT2TVIf2hm6gShOBcBR7/AM/dVCowoHcK5mvDfSq7dma6B7q3OY9Qcd76vH/X+uypkK8qjoMqPE59n+jUuEbrZ9JpgH+ye0Wn6Ds6Yn+WG5kleVkVFMZOABz58B7zU6121jFsA11cLn6O6eFZ/bbRIEVLi0DKoADK2DVlba1pEuM5jPbvrigAwbbSLsurj9k02dsom/nbg/qmqaB7O4x8nkikz2AinGt8cOqooBu/2kWS7kcGcg45+ilVRfri7kGMYx8BSook+lVp4eYaVKs2V9gxru08dgkyxKR1RKtKRkAjsArP4ttLS/1RrSISvcHk7rjPjXlKsZOzsgkiZq2uJp9uXbLHd7qCNPN5ttrpjeVo7GAb0jA4IXuHb2Y9GfDKpUoJNMc27RrGmWMVnbpbwRLHEgAVV5AH4mqjpF2i/g9o0aQZF1cnchI5LnmfVSpVENyKnqOjF7nVb6+dt+4lfP2z+J+FQ1tz57boPaSN4n1mlSrv8oRfTzpydj0cSvxMrg91Jofve2lSrpXnH8M8mN7uOHlftV4d7nvcq8pVEoJcKtnO+RxZVNPQ3kaeS8XD217SrJpDTGJIg8pZeTHIrrqZF54I7D3UqVQiiQo830U7Mdy3kb1e2vaVMZW0qVKoQCWQqfIYqfs8Kt7DUbw23U/Kptwdm+a9pVUegMzSkysSSSe00qVKpYj/2Q=="
+            alt="Profile Picture"
+          />
+          <p>
+            Hello! I'm Jane Doe, a web developer with a passion for creating
+            beautiful and functional websites.
+          </p>
+        </div>
+      </section>
+
+      <!-- Form Section -->
+      <form action="" method="post">
+        <!-- Collect number, project info , services, name  -->
+        <div>
+          <label for="number">Contact Number:</label>
+          <input type="text" id="number" name="number" required />
+          <label for="project">Project Info:</label>
+          <textarea id="project" name="project" required></textarea>
+          <label for="services">Services Needed:</label>
+          <select id="services" name="services" required>
+            <option value="web_design">Web Design</option>
+            <option value="web_development">Web Development</option>
+            <option value="seo">SEO</option>
+            <option value="content_creation">Content Creation</option>
+            <option value="digital_marketing">Digital Marketing</option>
+
+            <option value="other">Other</option>
+          </select>
+          <label for="name">Your Name:</label>
+
+          <input type="text" id="name" name="name" required />
+        </div>
+
+        <button type="submit">Submit</button>
+      </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Jane Doe. All rights reserved.</p>
+        <p>
+            Follow me on
+            <a href="https://www.linkedin.com/in/janedoe">LinkedIn</a> and
+            <a href="https://github.com/janedoe">GitHub</a>.
+        </p>
+    </footer>
+  </body>
+</html>
