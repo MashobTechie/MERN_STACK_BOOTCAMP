@@ -1,0 +1,39 @@
+Javascript is the programming langiage of the web. 
+It is used for:
+ 1. Web Development: used to craete websites with the help of react.js as frontend, and backend[express.js, node.js]
+ 2. App Development: used to create applications with react native
+ 3. Desktop Apps: with electronjs.
+
+
+ Functins of JS for websites:
+ Makes our web pages interactive and dynamic [eg animations, form validation , fetching of data etc ]
+works alongside HTML(structure) and CSS(styling)
+
+How To Add Javascript To HTML:
+1. Inline Javascript: directly adding js inside HTML tags. Generally, discouraged for clean code. 
+2. Internal Javascript: Placing a cript just before we close the HTML body tags. People do use it basically for performance reasons(enures HTML is loaded first)
+3. External Javascript: Link a separate file using <script src> 
+
+
+Your first Javascript output: 
+console.log()
+
+The primary way to display information in the browser console for debuging and testing. 
+
+Variables:
+They are containers for storing data. 
+
+Operators
+
+
+
+Day2JS:  
+Data Types
+and more on comaprison and logical Operators
+Control Flow(if/else statement)
+
+Day3JS:
+Functions
+Array
+Loops
+Interacting with DOM 

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <script src="./index.js"></script>
+    <title>Introduction To JS Essentials</title>
+</head>
+<body>
+    <div>
+        <h1>Introduction To JS Essentials</h1>
+        <p>JavaScript is a versatile programming language that enables developers to create interactive and dynamic web applications. It works alongside HTML and CSS to enhance user experience by adding functionality such as animations, form validation, and data fetching.</p>
+        
+        <h2>How To Add JavaScript To HTML:</h2>
+        <ol>
+            <li><strong>Inline JavaScript:</strong> Directly adding JavaScript code within HTML tags using the <code>onclick</code>, <code>onchange</code>, etc. attributes.</li>
+            <li><strong>Internal JavaScript:</strong> Using the <code>&lt;script&gt;</code> tag within the HTML document to include JavaScript code.</li>
+            <li><strong>External JavaScript:</strong> Linking an external JavaScript file using the <code>&lt;script src="path/to/file.js"&gt;&lt;/script&gt;</code>.</li>
+        </ol>
+    </div>
+
+
+    <button onclick="alert('Button Clicked!')">
+        Click Me
+    </button>
+
+    <!-- Inline Javascript -->
+    <button class="btn2">
+        Click Me Too
+    </button>
+    
+
+    <!-- Internal Javascript -->
+    <script>
+        const btn2 = document.querySelector('.btn2');
+        btn2.addEventListener('click', () => {
+            alert('Button 2 Clicked!');
+        });
+    </script>
+</body>
+</html>

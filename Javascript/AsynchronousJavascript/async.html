@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      body {
+        background: #f4f6f8;
+        font-family: "Segoe UI", Arial, sans-serif;
+        margin: 0;
+        padding: 40px 0;
+      }
+      .user-card {
+        background: #fff;
+        max-width: 400px;
+        margin: 40px auto;
+        border-radius: 12px;
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+        padding: 32px 28px;
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
+      }
+      .user-card h2 {
+        margin: 0 0 4px 0;
+        font-size: 1.6rem;
+        color: #222;
+      }
+      .user-card .username {
+        color: #0078d7;
+        font-weight: 500;
+        margin-bottom: 8px;
+      }
+      .user-card .info {
+        margin-bottom: 8px;
+        color: #444;
+      }
+      .user-card .section-title {
+        font-size: 1.05rem;
+        font-weight: 600;
+        margin-top: 12px;
+        margin-bottom: 4px;
+        color: #555;
+      }
+      .user-card .address,
+      .user-card .company {
+        background: #f7f9fa;
+        border-radius: 6px;
+        padding: 10px 14px;
+        font-size: 0.98rem;
+        color: #333;
+      }
+      .user-card a {
+        color: #0078d7;
+        text-decoration: none;
+        word-break: break-all;
+      }
+      .user-card a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <p>Synchronous And Asynchronous JavaScript(Code)</p>
+
+    <p>
+      Synchronous JavaScript executes code in a sequential manner, meaning each
+      line of code is executed one after the other. In contrast, Asynchronous
+      JavaScript allows certain operations to run in the background, enabling
+      the program to continue executing other code without waiting for those
+      operations to complete.
+    </p>
+
+    <!-- Why it it important for web development -->
+    <p>
+      Web pages often need to load data from a server, such as user information
+      or product details. Asynchronous JavaScript allows these requests to be
+      made without freezing the user interface, providing a smoother experience.
+    </p>
+
+    <!-- Common Aynchronous Operations -->
+    <p>
+      Timeout or interval functions (setTimeout, setInterval) are often used for
+      delaying code execution or repeating code at specified intervals.
+    </p>
+    <p>
+      Fetching data from APIs using XMLHttpRequest or the Fetch API is a common
+      asynchronous operation, allowing web applications to retrieve data without
+      blocking the main thread.
+    </p>
+
+    <div class="user-card">
+      <h2></h2>
+      <div class="username"></div>
+      <div class="info">
+        <strong></strong> <a href="mailto:Sincere@april.biz"></a>
+      </div>
+      <div class="info">
+        <strong></strong> <a href="tel:1-770-736-8031 x56442"></a>
+      </div>
+      <div class="info">
+        <strong></strong> <a href="http://hildegard.org" target="_blank"></a>
+      </div>
+      <div class="section-title"></div>
+      <div class="address">
+        <br />
+      </div>
+      <div class="section-title"></div>
+      <div class="company">
+        <strong></strong><br />
+        <em></em><br />
+        <span></span>
+      </div>
+    </div>
+
+
+    <div class="user-list"></div>
+
+    <script src="./async.js"></script>
+  </body>
+</html>

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./functions.js"></script>
+    <title>Document</title>
+
+     <style>
+    body {
+      background-color: #f9fafb;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      padding: 40px;
+      color: #1f2937;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      background-color: #ffffff;
+      padding: 30px 40px;
+      border-radius: 12px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.07);
+    }
+
+    h1 {
+      font-size: 28px;
+      color: #dc2626;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    h2 {
+      font-size: 20px;
+      margin-top: 30px;
+      margin-bottom: 10px;
+      color: #111827;
+      border-bottom: 2px solid #e5e7eb;
+      padding-bottom: 6px;
+    }
+
+    code {
+      background-color: #f3f4f6;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-size: 0.95em;
+    }
+
+    pre {
+      background-color: #f3f4f6;
+      padding: 12px 16px;
+      border-radius: 8px;
+      overflow-x: auto;
+      font-size: 0.95em;
+    }
+
+    ul {
+      margin-left: 20px;
+      line-height: 1.6;
+    }
+
+    .highlight {
+      background-color: #fef3c7;
+      border-left: 4px solid #f59e0b;
+      padding: 8px 12px;
+      margin: 20px 0;
+      border-radius: 6px;
+      font-style: italic;
+    }
+
+    p {
+      margin: 12px 0;
+    }
+  </style>
+
+
+
+  </head>
+  <body>
+    <div class="container">
+      <h1>Simple Contact List Exercise</h1>
+
+      <p>
+        <strong>Objective:</strong> Use your knowledge of variables, functions,
+        and arrays to create and manage a basic list of contacts using
+        JavaScript and <code>console.log()</code>.
+      </p>
+
+      <h2>1. Set Up Your Data</h2>
+      <ul>
+        <li>
+          Create a new variable called <code>contactList</code> using
+          <code>let</code>.
+        </li>
+        <li>
+          Assign an array of at least three contact objects to this variable.
+        </li>
+        <li>
+          Each contact object should have two properties: <code>name</code> (a
+          string) and <code>number</code> (a string).
+        </li>
+      </ul>
+
+      <p>Example of one contact object:</p>
+      <pre><code>{
+  name: "John Doe",
+  number: "555-1234"
+}</code></pre>
+
+      <h2>2. Write Your Functions</h2>
+      <p>
+        Create the following functions. Use <code>console.log()</code> inside
+        each function to test results:
+      </p>
+
+      <h3>Function 1: <code>addContact()</code></h3>
+      <ul>
+        <li>Add a new contact to your list.</li>
+        <li>
+          Parameters: <code>contactName</code>, <code>contactNumber</code>
+        </li>
+        <li>Create a new object and use <code>contactList.push()</code></li>
+        <li><code>console.log()</code> the updated <code>contactList</code></li>
+      </ul>
+
+      <h3>Function 2: <code>displayContacts()</code></h3>
+      <ul>
+        <li>No parameters.</li>
+        <li>
+          Loop through the array and log each contact’s name and number
+          individually.
+        </li>
+      </ul>
+
+      <h3>Function 3: <code>searchContact()</code></h3>
+      <ul>
+        <li>Parameter: <code>searchName</code></li>
+        <li>
+          Use <code>if</code>/<code>else if</code> to check for a matching
+          <code>name</code>
+        </li>
+        <li>Log the result or a "Contact not found" message.</li>
+      </ul>
+
+      <h3>Function 4: <code>deleteContact()</code></h3>
+      <ul>
+        <li>Parameter: <code>index</code></li>
+        <li>Use <code>splice()</code> to remove a contact.</li>
+        <li>Log the updated <code>contactList</code></li>
+      </ul>
+
+      <h2>3. Test Your Functions</h2>
+      <div class="highlight">
+        Call each function in your JavaScript file and check the output using
+        the browser's console.
+      </div>
+      <ul>
+        <li><code>addContact("Alice", "123-4567")</code></li>
+        <li><code>displayContacts()</code></li>
+        <li><code>searchContact("John Doe")</code></li>
+        <li><code>searchContact("Jane")</code> (non-existing)</li>
+        <li><code>deleteContact(0)</code> (removes first contact)</li>
+      </ul>
+
+      <p>
+        When you run your JavaScript file, you should see all of the results
+        using <code>console.log()</code> in the browser’s developer console.
+      </p>
+    </div>
+  </body>
+</html>
